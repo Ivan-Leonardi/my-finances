@@ -4,7 +4,7 @@ import {
     usersCreate,
     usersUpdate,
     usersRemove,
-} from "./modules/users";
+} from "./modules/users/index.js";
 
 export const router = new Router();
 
